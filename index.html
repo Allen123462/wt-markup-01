@@ -1,56 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>DevStdudio.com</title>
 </head>
 
 <body>
-    <header>
-        <section style="display: flex; align-items: center;">
-            <span style="margin-left: 215px; font-size: 26px;font-family: Rolaway;">
-                <span style="color:#2196F3">Dev</span>Studio
-            </span>
-            <nav style="margin-left: 238px">
-                <a href="">Про нас</a>
-                <a href="">Портфоліо</a>
-                <a href="">Контакти</a>
-            </nav>
-            <address style="margin-left: 625px">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                +38 068 000 11 00
-            </address>
-        </section>
+    <header class="header">
+        <span class="logo">
+            <a href=""><span class="text">Dev</span>Studio</a>
+        </span>
+        <nav class="navigation">
+            <a href="">Про нас</a>
+            <a href="">Портфоліо</a>
+            <a href="">Контакти</a>
+        </nav>
+        <div class="address">
+            <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="phone_number" href="tel:+380680001100">+380-680-001-100</a>
+        </div>
     </header>
 
     <main>
-        <section style="background-color: rgb(47, 48, 58);
-        width: 100%; height: 600px;">
-            <h1 style="color: #ffffff; 
-                font-size: 44pt;
-                text-align: center;
-                width: 1048px;
-                height: 120px;
-                margin-left: 400px;
-                ">
+        <div class="first_section">
+            <h1 class="text">
                 <b>Ми створюємо легкі рішення складних завдань для вашогобізнеса</b>
             </h1>
-            <button type="button" style="background-color:rgb(33,150,243);color: #ffffff;
-                border:0;
-                margin-left: 800px;
-                margin-top: 250px;
-                width: 200px; height: 50px;">
+            <button class="button" type="button">
                 <b>Замовити послугу</b>
             </button>
-        </section>
+        </div>
+        <div class="description">
+            <ul>
+                <li>
+                    <div class="text">
+                        <span class="text"><b>Увага до деталей</b>
+                            Lorem Ipsum - це текст-"риба", що часто використовується у веб-дизайні.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <span class="text"><b>Пунктуальність</b>
+                            Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI століття.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <span class="text"><b>Планування</b>
+                            Lorem Ipsum - це текст-"риба", що часто використовується у веб-дизайні.</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <span class="text"><b>Сучасні технології</b>
+                            Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI століття.</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="our_work">
+            <h2><b>Роботи на яких спеціалізуємось</b></h2>
+            <ul>
+                <li>
+                    <img src="./images/our_work_img1.jpg" alt="code screenshot" width="371px" height="294px">
+                </li>
+                <li>
+                    <img src="./images/our_work_img2.jpg" alt="crowd work on one table" width="371px" height="294px">
+                </li>
+                <li>
+                    <img src="./images/our_work_img3.jpg" alt="two laptops with man hand???" width="371px"
+                        height="294px">
+                </li>
+            </ul>
+        </div>
+        <div class="our_workers">
+            <h2><b>Наша команда</b></h2>
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="./images/Betty.jpg" alt="Front photo of Betty. She looks great" width="270px"
+                            height="260px">
+                        <span>Betty Foriz Product Designer</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="./images/Folke.jpg" alt="Front photo of Folke. He looks awesome" width="270px"
+                            height="260px">
+                        <span>Folke Booke Frontend Developer</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="./images/Mito.jpg" alt="Front photo of Mito. He looks like she wanna to sleep"
+                            width="270px" height="260px">
+                        <span>Mito Dito Marketing</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="./images/Loa.jpg" alt="Front photo of Loa. She looks a bit suspicious" width="270px"
+                            height="260px">
+                        <span>Lỏa Spetnaz UI Designer</span>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
     </main>
 
     <footer>
-
+        <span class="logo">
+            <a href=""><span class="text">Dev</span>Studio</a>
+        </span>
+        <div class="address">
+            <address>
+                <span>м. Харків, вул. Ярослава Мудрого, 18</span>
+                <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="phone_number" href="tel:+380680001100">+380-680-001-100</a>
+            </address>
+        </div>
     </footer>
-
 </body>
 
 </html>
